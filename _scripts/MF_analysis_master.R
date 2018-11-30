@@ -3,6 +3,7 @@
 library(ggplot2)
 
 load(file = '_data/rawdata.RData')
+# load(file = '.\\_data\\rawdata.RData') # assuming the current working directory is the root folder for this repo, for window, use this line to load data
 ns = 10
 nt = 80
 
